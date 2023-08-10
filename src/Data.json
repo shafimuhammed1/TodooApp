@@ -1,0 +1,30 @@
+[
+    {
+        "Name" : "salal",
+        "Age"  : 23,
+        "Place": "dubai"
+        
+    },
+
+    {
+        "Name" : "Kokkan",
+        "Age"  : 23,
+        "Place": "pulichod"
+        
+    },
+
+    {
+        "Name" : "Anzl",
+        "Age"  : 23,
+        "Place": "chandha"
+        
+    },
+
+    {
+        "Name" : "nowfell",
+        "Age"  : 23,
+        "Place": "pezhkappilly"
+        
+    }
+]
+
