@@ -1,6 +1,9 @@
 import './App.css'
+import{useState} from 'react'
 
 function App() {
+  const [Todos,setTodos] = useState([])
+  const [Todo,setTodo] = useState('')
 
   return (
 <div className="app">
@@ -12,7 +15,7 @@ function App() {
         <h2>Whoop, it's Wednesday 🌝 ☕ </h2>
       </div>
       <div className="input">
-        <input type="text" placeholder="🖊️ Add item..." />
+        <input value={Todo} onChange={(event)=>setTodo(event.target.value)}   type="text" placeholder="🖊️ Add item..." />
         <i className="fas fa-plus"></i>
       </div>
       <div className="todos">
